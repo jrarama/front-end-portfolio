@@ -1,0 +1,63 @@
+.color-bg .color-primary {
+	background-color: #f8981c;
+}
+
+.color-bg .color-light {
+	background-color: #bcbbbb;
+}
+
+.color-bg .color-dark {
+	background-color: #747704;
+}
+
+.color-boxes .box {
+	margin: 10px auto;
+	width: 60px;
+	height: 60px;
+}
+
+.color-names {
+	margin-top: 20px;
+}
+
+.color-names p {
+	margin: 0;
+}
+
+.main-header {
+	padding: 20px 20px 10px;
+	border-bottom: 4px solid #bcbbbb;
+}
+
+.header-info {
+	float: right;
+	text-align: right;
+}
+
+.header-info .my-name {
+	font-size: 3em;
+	margin: 0;
+}
+
+.udacity-logo {
+	width: 90px;
+	height: 90px;
+}
+
+.hero {
+	margin-top: 20px;
+	max-height: 300px;
+	overflow: hidden;
+}
+
+.main-section {
+	padding-bottom: 20px;
+}
+
+.banner {
+	width: 100%;
+}
+
+.featured .featured-item {
+	text-align: center;
+}
