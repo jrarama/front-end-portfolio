@@ -1,13 +1,26 @@
-.color-bg .color-primary {
-	background-color: #f8981c;
+/* Color Helpers */
+.color-primary {
+	color: #0044aa;
 }
 
-.color-bg .color-light {
-	background-color: #bcbbbb;
+.color-light {
+	color: #afc6e9;
 }
 
-.color-bg .color-dark {
-	background-color: #747704;
+.color-dark {
+	color: #5f99f2;
+}
+
+.bgcolor-primary {
+	background-color: #0044aa;
+}
+
+.bgcolor-light {
+	background-color: #afc6e9;
+}
+
+.bgcolor-dark {
+	background-color: #5f99f2;
 }
 
 .color-boxes .box {
@@ -26,7 +39,7 @@
 
 .main-header {
 	padding: 20px 20px 10px;
-	border-bottom: 4px solid #bcbbbb;
+	border-bottom: 4px solid #afc6e9;
 }
 
 .header-info {
@@ -37,6 +50,7 @@
 .header-info .my-name {
 	font-size: 3em;
 	margin: 0;
+	color: #0044aa;
 }
 
 .udacity-logo {
@@ -46,7 +60,7 @@
 
 .hero {
 	margin-top: 20px;
-	max-height: 300px;
+	max-height: 450px;
 	overflow: hidden;
 }
 
@@ -60,4 +74,12 @@
 
 .featured .featured-item {
 	text-align: center;
+}
+
+.featured .featured-item .featured-img {
+	width: 100%;
+}
+
+.featured .featured-item :hover {
+	text-decoration: none;
 }

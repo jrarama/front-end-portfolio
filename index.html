@@ -6,56 +6,94 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/main.js"></script>
 </head>
 <body>
 	<div class="container">
 		<header class="main-header row col-md-offset-2">
 			<h1 class="sr-only">Front End Portfolio</h1>
-			<img class="udacity-logo img-circle" src="images/udacity-logo.jpg" />
+			<img class="udacity-logo" src="images/jr-logo.svg" />
 			<section class="header-info">
 				<p class="my-name">JOSHUA RARAMA</p>
-				<p class="my-desc">FRONT-END NINJA</p>
+				<p class="my-desc color-dark">FRONT-END NINJA</p>
 			</section>
 		</header>
 		<div class="row">
 			<aside class="left-sidebar col-md-2">
-				<div class="color-boxes color-bg">
-					<p class="box color-primary"></p>
-					<p class="box color-light"></p>
-					<p class="box color-dark"></p>
+				<div class="color-boxes">
+					<p class="box bgcolor-primary"></p>
+					<p class="box bgcolor-light"></p>
+					<p class="box bgcolor-dark"></p>
 				</div>
 				<div class="color-names text-center">
-					<p>F8981C</p>
-					<p>BCBBBB</p>
-					<p>747704</p>
+					<p>0044AA</p>
+					<p>AFC6E9</p>
+					<p>5F99F2</p>
 				</div>
 			</aside>
 			<div class="main-section col-md-10">
 				<section class="hero">
-					<img class="banner" src="images/banner.png">
+					<div id="banner-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#banner-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#banner-carousel" data-slide-to="1"></li>
+							<li data-target="#banner-carousel" data-slide-to="2"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="images/sunshine-large.png" alt="Sunshine App">
+							</div>
+							<div class="item">
+								<img src="images/spotify-large.png" alt="Spotify Streamer App">
+							</div>
+							<div class="item">
+								<img src="images/snake-large.png" alt="JS Games">
+							</div>
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#banner-carousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#banner-carousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
 				</section>
 				<section class="content featured">
-					<h2>Featured Works</h2>
+					<h2 class="color-primary">Featured Works</h2>
 					
 					<div class="row">
 						<article class="featured-item col-md-4">
-							<img src="images/featured-1.png" class="featured-img" />
-							<h3>APPIFY</h3>
-							<a class="featured-link" href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
+							<a class="featured-link" href="https://github.com/jrarama/sunshine-app/" target="_blank">
+								<img src="images/sunshine-small.png" class="featured-img" />
+								<h3 class="color-dark">Sunshine App</h3>
+								<p>https://github.com/jrarama/sunshine-app/</p>
+							</a>
 						</article>
 
 						<article class="featured-item col-md-4">
-							<img src="images/featured-2.png" class="featured-img" />
-							<h3>SUNFLOWER</h3>
-							<a class="featured-link" href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
+							<a class="featured-link" href="https://github.com/jrarama/spotify-streamer/" target="_blank">
+								<img src="images/spotify-small.png" class="featured-img" />
+								<h3 class="color-dark">Spotify Streamer</h3>
+								<p>https://github.com/jrarama/spotify-streamer/</p>
+							</a>
 						</article>
 
 						<article class="featured-item col-md-4">
-							<img src="images/featured-3.png" class="featured-img" />
-							<h3>BOKEH</h3>
-							<a class="featured-link" href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a>
+							<a class="featured-link" href="https://github.com/jrarama/jsgames/" target="_blank">
+								<img src="images/snake-small.png" class="featured-img" />
+								<h3 class="color-dark">JS Games</h3>
+								<p>https://github.com/jrarama/jsgames/</p>
+							</a>
 						</article>
 					</div>
 				</section>
