@@ -1,6 +1,6 @@
 /* Color Helpers */
 .color-primary {
-	color: #0044aa;
+	color: #04a;
 }
 
 .color-dark {
@@ -8,7 +8,7 @@
 }
 
 .bgcolor-primary {
-	background-color: #0044aa;
+	background-color: #04a;
 }
 
 .bgcolor-light {
@@ -38,7 +38,7 @@
 .header-info .my-name {
 	font-size: 3em;
 	margin: 0;
-	color: #0044aa;
+	color: #04a;
 }
 
 .site-logo {
@@ -88,11 +88,11 @@
 	.color-boxes .box,
 	.color-names p {
 		display: inline-block;
-	    margin: 0;
-	    width: calc((100% - 8px) / 3);
-	    border: 0;
-	    padding: 0;
-	    height: 10px;
+		margin: 0;
+		width: calc((100% - 8px) / 3);
+		border: 0;
+		padding: 0;
+		height: 10px;
 	}
 
 	.color-names {
