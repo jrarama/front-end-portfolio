@@ -18,11 +18,11 @@ module.exports = function(grunt) {
             suffix: '-large',
             rename: false
           }, {
-            width: 768,
+            width: 640,
             suffix: '-medium',
             rename: false
           }, {
-            width: 480,
+            width: 320,
             suffix: '-small',
             rename: false
           }]

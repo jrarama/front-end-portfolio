@@ -3,10 +3,6 @@
 	color: #0044aa;
 }
 
-.color-light {
-	color: #afc6e9;
-}
-
 .color-dark {
 	color: #5f99f2;
 }
@@ -36,6 +32,7 @@
 
 .header-info .my-desc {
 	font-size: 1.2em;
+	margin: 5px 0 0;
 }
 
 .header-info .my-name {
@@ -113,10 +110,6 @@
 
 .main-section {
 	padding-bottom: 20px;
-}
-
-.banner {
-	width: 100%;
 }
 
 /* Featured Items */
